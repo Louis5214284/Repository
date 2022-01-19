@@ -54,4 +54,25 @@
 >> 第二层引用
 >>> 第三层引用
 
+## Markdown 插入代码块
+
+```c
+	#include <stdio.h>
+	
+	int main(void)
+	{
+		printf("C output..\n");
+		return 0;
+	}
+
+```
+```cpp
+	#include <iostream>
+	using namesapce std;
+
+	int main(void)
+	{
+		cout << "C++ touput" <<endl;
+	}
+```
 
