@@ -75,4 +75,16 @@
 		cout << "C++ touput" <<endl;
 	}
 ```
+```python
+	inport urllib
+	inport os
+
+	def function();
+		printf("Python code...\n");
+```
+```bash
+	sudo apt-get install pip3
+	echo "数据回显"
+	netstate -apn
+```
 
