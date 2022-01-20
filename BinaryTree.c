@@ -26,7 +26,7 @@ BinaryTree *CreateBinaryTree()
 	pRoot->pLeft->pLeft->pRight = NULL:
 
 	//根的右
-	pRoot->pRight = (BinaryTree*)mallov(sizeof(BinaryTree));
+	pRoot->pRight = (BinaryTree*)malloc(sizeof(BinaryTree));
 	pRoot->pRight->nValue =3;
 	pRoot->pRight->pLeft = NULL:
 	pRoot->pRight->pRight = NULL;
